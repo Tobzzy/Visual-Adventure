@@ -1,0 +1,39 @@
+.Player {
+  color: black;
+  font-size: 27px;
+  font-weight: bold;
+  grid-area: player;
+  display: grid;
+  grid-template-areas: '. .' '. .';
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 7px;
+  padding: 14px;
+}
+
+.Player:before {
+  content: '';
+  height: 300%;
+  width: 100%;
+  position: absolute;
+  background-image: url('/images/tiles.jpg');
+  background-position: center center;
+  background-size: 70px;
+  z-index: -1;
+  transform: rotate(90deg) scale(1.7);
+  filter: brightness(0.9) hue-rotate(-10deg);
+}
+
+.Player__investigate{
+  background-color: #787875;
+  font-family: bold;
+  font-size: 20px;
+  color: orange;
+  height: 40px;
+  width: 18s0px;
+}

@@ -1,0 +1,101 @@
+.Ad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  transition: height 0.2s linear, opacity 0.2s linear;
+  align-self: center;
+  opacity: 1;
+}
+
+.Ad--exiting, .Ad--exited, .Ad--entering {
+  height: 20px;
+}
+
+.Ad--exited {
+  opacity: 0;
+}
+
+.Ad__content {
+  display: grid;
+  grid-area: content;
+  grid-template-areas: 'desc desc' '. . ' 'solve solve';
+  width: 80%;
+  padding: 35px;
+  justify-self: center;
+  background: #babcbf;
+  height: 100%;
+  word-break: break-word;
+  box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.75), 0px 10px 21px -1px rgba(0,0,0,0.75);
+  grid-gap: 21px;
+  transition: all .2s;
+  overflow: hidden;
+}
+
+.Ad h3{
+  font-size: 32px;
+  grid-area: desc;
+  font-weight: italic;
+}
+
+.Ad__expiration, .Ad__probability {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Ad__reward {
+  font-size: 42px;
+  color: gold;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-self: center;
+}
+
+.Ad__reward span {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-color: gold;
+  border-bottom: 5px solid goldenrod;
+  border-right: 4px solid goldenrod;
+  border-bottom-right-radius: 10px;
+  border-radius: 100px;
+  margin-right: 7px;
+}
+
+.Ad button {
+  grid-area: solve;
+  display: flex;
+  width: 60%;
+  justify-self: center;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: transparent;
+  border: 0;
+  font-family: bold;
+  font-size: 42px;
+  transition: all .2s;
+  padding: 7px;
+  position: relative;
+  background-color: #012413;
+  color: #fff;
+  box-shadow: inset 0px 0px 21px -1px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+
+.Ad button:hover {
+  box-shadow: 0px 8px 12px -1px rgba(0, 0, 0, 0.9);
+  top: -6px;
+  transform: scale(0.95);
+}
+
+

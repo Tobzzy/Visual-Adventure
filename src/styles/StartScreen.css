@@ -1,0 +1,24 @@
+.StartScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/images/tiles.jpg');
+  width: 100%;
+}
+
+.StartScreen h1 {
+  margin-bottom: 50px;
+  font-size: 90px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.StartScreen button {
+  width: 200px;
+  height: 100px;
+  font-size: 30px;
+  font-family: bold;
+  background-color: #012413;
+  outline: 0;
+  cursor: pointer;
+}
