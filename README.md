@@ -1,4 +1,4 @@
-# PROJECT Visual Adventure ()
+# PROJECT Visual Adventure (Front-end Developer (CMS*))
  
 ## Requirements
 
@@ -55,6 +55,14 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
     $ npm start
 
 - project load automatically on web browser after compilation
+
+App in use with https://www.dragonsofmugloar.com/doc/ API
+
+* Allows the user to start a game
+* Fetches and displays the list of ads
+* Allows user to pick which ones to solve
+* Allows user to purchase items from the shop
+* Displays player's score, gold and lives
 
 ## Simple build for production
 
