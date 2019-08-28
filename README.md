@@ -46,8 +46,8 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ## Install
 
-    $ git clone https://github.com/Tobzzy/Dragon_of_Mugloar
-    $ cd Dragon_of_Mugloar
+    $ git clone https://github.com/Tobzzy/Visual-Adventure
+    $ cd Visual-Adventure
     $ npm install
 
 ## Start & watch
