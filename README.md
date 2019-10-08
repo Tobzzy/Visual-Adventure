@@ -1,4 +1,4 @@
-# PROJECT Visual Adventure (Front-end Developer (CMS*))
+# PROJECT Visual Adventure
  
 ## Requirements
 
